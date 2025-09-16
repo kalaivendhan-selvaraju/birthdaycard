@@ -91,7 +91,7 @@ export default function BirthdayPage() {
               animate={{ scale: 1 }}
               transition={{ duration: 0.8 }}
             >
-              Made with ❤️ 😍
+              Made with ❤️😍
             </motion.h3>
             <motion.p
               className="card-back-text"
@@ -99,27 +99,28 @@ export default function BirthdayPage() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 0.5 }}
             >
-              🎉😘 Happy Birthday, my love! 😘🎉
+              🎉😘 Happy Birthday, my pattu kutty 😘🎉
               <br></br>
               Today is all about celebrating you — the most amazing, beautiful,
-              and inspiring person in my life. Every moment with you is a gift,
-              every smile you give lights up my world, and every laugh makes my
-              heart melt. I hope this year brings you endless joy, sweet
-              adventures, and memories that make your heart dance. You deserve
-              all the love, happiness, and magic in the world. Thank you for
-              being my partner, my best friend, and my everything. Here’s to
-              more late-night talks, silly jokes, cozy hugs, and dreams coming
-              true — together. I love you more than words can ever express.
-              ❤️🥰💖 Happy Birthday, my darling! Let’s make today unforgettable!
-              🎂🎁✨{" "}
+              and inspiring person in my life 🤩. Every moment with you is a
+              gift 🎁, every smile you give lights up my world 💗, and every
+              laugh makes my heart melt 🫠. I hope this year brings you endless
+              joy, sweet adventures, and memories that make your heart dance 💃.
+              You deserve all the love, happiness, and magic in the world 😊.
+              Thank you for being my partner, my best friend, and my everything
+              😎💞. Here’s to more late-night talks, mokka jokes, kisses, hugs,
+              and dreams coming true — together ❣️. I love you a lott 😘 and i
+              miss you a lott more than words can ever express 🫂🥹.
+              <br></br>
+              ❤️🥰💖💝 Happy Birthday, my thangamey 💛! I hope next year will
+              celebrate your Birthday together as happy married couples 💞🎂🎁✨{" "}
             </motion.p>
           </motion.div>
         </motion.div>
       </div>
 
-      
       <div className="section">
-        <h2 className="section-title">Nama 🫶</h2>
+        <h2 className="section-title">You and I = Us 🫶</h2>
         <div className="memories-container">
           <motion.div className="memory-card" whileHover={{ scale: 1.05 }}>
             <img
@@ -127,7 +128,7 @@ export default function BirthdayPage() {
               alt="memory1"
               className="memory-image"
             />
-            <p className="memory-text">Nama kadai 🎉 😄</p>
+            <p className="memory-text">Nama Ice Cream Shop 💞🍧</p>
           </motion.div>
           <motion.div className="memory-card" whileHover={{ scale: 1.05 }}>
             <img
@@ -135,7 +136,7 @@ export default function BirthdayPage() {
               alt="memory2"
               className="memory-image"
             />
-            <p className="memory-text">Nama bomma kadai 🍰 😍</p>
+            <p className="memory-text">Nama Toy Shop 🧸😍</p>
           </motion.div>
           <motion.div className="memory-card" whileHover={{ scale: 1.05 }}>
             <img
@@ -143,7 +144,7 @@ export default function BirthdayPage() {
               alt="memory3"
               className="memory-image"
             />
-            <p className="memory-text">Nama Kovil ❤️ 😁</p>
+            <p className="memory-text">Nama Kovil 🛕❤️</p>
           </motion.div>
         </div>
       </div>
