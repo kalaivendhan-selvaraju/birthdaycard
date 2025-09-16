@@ -1,0 +1,165 @@
+/* BirthdayPage.css */
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background: linear-gradient(to bottom, #fbc2eb, #a6c1ee);
+  min-height: 100vh;
+  padding: 20px 0;
+}
+
+.section {
+  margin: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-title {
+  font-size: 32px;
+  color: #ff6b81;
+  margin-bottom: 20px;
+}
+
+.card {
+  width: 360px;
+  height: 560px;
+  position: relative;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+.card-front, .card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  backface-visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.card-front {
+  background: white;
+}
+
+.card-back {
+  background: linear-gradient(to bottom, #fef9f9, #fbc2eb);
+  transform: rotateY(180deg);
+  text-align: center;
+}
+
+.card-title {
+  font-size: 48px;
+  color: #ff6b81;
+  margin: 0;
+}
+
+.card-subtitle {
+  font-size: 36px;
+  color: #9b59b6;
+  margin: 10px 0 0;
+}
+
+.card-note {
+  margin-top: 20px;
+  color: #555;
+}
+
+.card-back-title {
+  font-size: 28px;
+  color: #ff6b81;
+  margin: 0;
+}
+
+.card-back-text {
+  margin-top: 20px;
+  color: #555;
+  line-height: 1.4;
+}
+
+.cake {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin: 20px 0;
+}
+
+.cake-base {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 40px;
+  background: pink;
+  border-radius: 5px;
+}
+
+.cake-top {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+  height: 15px;
+  background: lightpink;
+  border-radius: 3px;
+}
+
+.candle {
+  position: absolute;
+  bottom: 55px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 5px;
+  height: 15px;
+  background: yellow;
+  border-radius: 2px;
+}
+
+.flame {
+  position: absolute;
+  bottom: 70px;
+  left: 50%;
+  transform: translateX(-50%) !important;
+  width: 8px;
+  height: 8px;
+  background: orange;
+  border-radius: 50%;
+}
+
+.memories-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.memory-card {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  width: 150px;
+  padding: 10px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.memory-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.memory-text {
+  margin-top: 10px;
+  color: #555;
+}
